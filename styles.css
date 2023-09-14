@@ -9,16 +9,13 @@ body{
 }
 
 
-
 header {
     text-align: center;
-    /*background-image: url("mmcm.jpg");*/
     background-color: #114b9f;
     color: aliceblue;
-    padding-bottom: 5px;
-
-    
-    
+    padding-bottom: 5px; 
+    max-width: 100%;
+    width: 100%;
 }
 
 .h1header{
@@ -27,13 +24,12 @@ header {
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     font-family: Arial, sans-serif;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;   
 }
 
 h1{
@@ -47,6 +43,8 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    max-width: 100%;
+    width: 100%;
 }
 
 .navbar a {
@@ -71,7 +69,6 @@ h1{
     min-height  : 800px;
     margin: auto;
     width:1500px;
-
   }
 
 .box {
@@ -131,6 +128,7 @@ footer{
   width: 100%;
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
  
 }
 
@@ -156,12 +154,12 @@ details{
 }
 
 .dark-mode {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* Light text color */
+  background-color: #333; 
+  color: #fff; 
 }
 
 .dark-mode .box {
-  background-color: #777; /* Dark background color for .box in dark mode */
+  background-color: #777; 
 }
 
 #darkModeToggle {
@@ -177,8 +175,8 @@ details{
   z-index: 999; 
 }
 
-/* Style for the button on hover */
+
 #darkModeToggle:hover {
-  background-color: #555; /* Change background color on hover */
+  background-color: #555; 
 }
 
