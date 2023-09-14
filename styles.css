@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color:white;
+}
+
+
+
+header {
+    text-align: center;
+    /*background-image: url("mmcm.jpg");*/
+    background-color: #114b9f;
+    color: aliceblue;
+    padding-bottom: 5px;
+
+    
+    
+}
+
+.h1header{
+  font-size: 400%;
+  color:  aliceblue;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    
+}
+
+h1{
+  color: darkblue;
+  font-size: 180%;
+}
+
+.navbar {
+    background-color: #e50019;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    display:flex;   
+    min-height  : 800px;
+    margin: auto;
+    width:1500px;
+
+  }
+
+.box {
+    background-color:aliceblue;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+
+  
+  .left-section {
+    flex: 3;
+    padding: 10px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 10px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .right-section img {
+    width: 100%; 
+    height: 250 px; 
+    max-height: 250px; 
+}
+
+.left-section img {
+  width: 100%; 
+  height: auto; 
+  max-height: 500px; 
+}
+
+summary{
+  font-size: 110%;
+ 
+}
+
+h2{
+  text-align: center;
+  
+}
+
+h5{
+  text-align: center;
+  font-weight: normal;
+  font-size: 115%;
+}
+
+footer{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.f1{
+  background-color: grey;
+  height: 70px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  padding: 20px;
+
+}
+
+.f2{
+  background-color: black;
+  margin:0px;
+  padding: 10px;
+  color:white;
+  font-size: smaller;
+}
+details{
+  margin:10px;
+}
+
+.dark-mode {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.dark-mode .box {
+  background-color: #777; /* Dark background color for .box in dark mode */
+}
+
+#darkModeToggle {
+  position: fixed; 
+  top: 20px; 
+  right: 20px; 
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  z-index: 999; 
+}
+
+/* Style for the button on hover */
+#darkModeToggle:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
