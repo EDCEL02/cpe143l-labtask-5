@@ -140,14 +140,14 @@ footer{
   text-align: center;
   color: white;
   font-size: large;
-  padding: 20px;
+  padding-bottom: 20px;
 
 }
 
 .f2{
   background-color: black;
   margin:0px;
-  padding: 10px;
+  padding-bottom: 10px;
   color:white;
   font-size: smaller;
 }
