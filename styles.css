@@ -66,9 +66,10 @@ h1{
 
 .main-container {
     display:flex;   
-    min-height  : 800px;
+    min-height: 800px;
     margin: auto;
-    width:1500px;
+    width:90%;
+    max-width: 100%
   }
 
 .box {
